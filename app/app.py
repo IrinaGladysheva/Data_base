@@ -15,7 +15,8 @@ def register_blueprints(app: Flask):
   app.register_blueprint(cookies.routes.blueprint)
  #app.register_blueprint(simple_pages.routes.blueprint)
 
-#wtf are simple pages coming from?
+
+#I commented out those things because I wanted to keep them as a reminder for working with this part of the code later
 
 def register_extensions(app: Flask):
   db.init_app(app)
